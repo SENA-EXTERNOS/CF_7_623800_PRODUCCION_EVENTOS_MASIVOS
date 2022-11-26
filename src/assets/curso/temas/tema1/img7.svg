@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="208.854" height="121" viewBox="0 0 208.854 121">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fedc72"/>
+      <stop offset="1" stop-color="#fdb74d"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_161139" data-name="Grupo 161139" transform="translate(-266.153 -2122)">
+    <ellipse id="Elipse_6232" data-name="Elipse 6232" cx="95" cy="60.5" rx="95" ry="60.5" transform="translate(285.007 2122)" fill="url(#linear-gradient)"/>
+    <g id="icons" transform="translate(266.153 2152.72)">
+      <path id="check" d="M10.58,19.16A2.165,2.165,0,0,1,9.044,18.5L4.658,14.115a2.12,2.12,0,0,1,0-3.071,2.119,2.119,0,0,1,3.071,0L10.58,13.9l7.238-7.238a2.171,2.171,0,0,1,3.071,3.071L12.115,18.5A2.165,2.165,0,0,1,10.58,19.16Z" transform="translate(-4 -6)" fill="#fff"/>
+    </g>
+    <circle id="Elipse_6234" data-name="Elipse 6234" cx="4.038" cy="4.038" r="4.038" transform="translate(307.869 2198.618)" fill="#fff"/>
+    <circle id="Elipse_6235" data-name="Elipse 6235" cx="4.038" cy="4.038" r="4.038" transform="translate(442.982 2183.811)" fill="#fff"/>
+    <circle id="Elipse_6236" data-name="Elipse 6236" cx="4.038" cy="4.038" r="4.038" transform="translate(315.944 2148)" fill="#fff"/>
+    <circle id="Elipse_6241" data-name="Elipse 6241" cx="4.038" cy="4.038" r="4.038" transform="translate(428.906 2208.924)" fill="#fff"/>
+    <circle id="Elipse_6237" data-name="Elipse 6237" cx="7.038" cy="7.038" r="7.038" transform="translate(298.944 2169.733)" fill="#fff"/>
+    <circle id="Elipse_6238" data-name="Elipse 6238" cx="7.038" cy="7.038" r="7.038" transform="translate(432.944 2157.308)" fill="#fff"/>
+    <path id="Trazado_204420" data-name="Trazado 204420" d="M-118.5,284.495h64.113a2.282,2.282,0,0,1,1.67.7,2.282,2.282,0,0,1,.7,1.67v16.622h-9.5v-9.5H-118.5v9.5H-128V258.375a2.282,2.282,0,0,1,.7-1.67,2.282,2.282,0,0,1,1.67-.7h4.749a2.282,2.282,0,0,1,1.67.7,2.282,2.282,0,0,1,.7,1.67Zm21.371-11.873a9.151,9.151,0,0,0-2.783-6.716,9.151,9.151,0,0,0-6.716-2.783,9.151,9.151,0,0,0-6.716,2.783,9.151,9.151,0,0,0-2.783,6.716,9.151,9.151,0,0,0,2.783,6.716,9.151,9.151,0,0,0,6.716,2.783,9.151,9.151,0,0,0,6.716-2.783A9.151,9.151,0,0,0-97.131,272.622Zm45.117,9.5v-2.375a13.727,13.727,0,0,0-4.174-10.073A13.727,13.727,0,0,0-66.261,265.5h-26.12a2.282,2.282,0,0,0-1.67.7,2.282,2.282,0,0,0-.7,1.67V282.12Z" transform="translate(470.014 1904.064)" fill="#5038a1"/>
+  </g>
+</svg>

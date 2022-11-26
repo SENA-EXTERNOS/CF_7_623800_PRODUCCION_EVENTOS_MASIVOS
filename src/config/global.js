@@ -1,17 +1,14 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Diseño de experiencia del evento',
+    descripcionCurso:
+      'Al pensar en la palabra hospitalidad desde el sector turístico, nos referimos a entender las necesidades de los clientes y usuarios, en cómo las interpretamos y las transformamos en servicio, atención y experiencia. La hospitalidad para un organizador de eventos lo es todo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -32,14 +29,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alojamiento y hospedaje',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Tipos de alojamiento, hospedaje, acomodación y tarifas',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Criterios de selección',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Servicios complementarios',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Procedimiento de reservas, prerregistro y check-in',
+            hash: 't_1_4',
           },
         ],
       },
@@ -48,15 +63,55 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Transporte de pasajeros e importancia',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Modalidades',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Normativa y documentación requerida',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Alimentos y bebidas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos de servicio',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Técnicas de servicio',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Montaje de mesas para eventos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'El menú en los eventos',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +156,176 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Montaje de mesas para eventos',
+      referencia:
+        'Aprende Institute. (2021). <i>Montaje de mesas para eventos.</i> Aprende Institute.  [video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=HS-GoeBd8Fc ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Definiciones y actividades turísticas',
+      referencia:
+        'Dirección de Análisis Sectorial y Promoción (DASP) (s.f.). Definiciones y actividades prestadores de servicios turísticos. Registro Nacional del Turismo. ',
+      tipo: 'PDF',
+      link:
+        'https://www.mincit.gov.co/getattachment/f7c53ff0-36c2-435b-884c-bb5e847f8866/Prestadores-de-servicios-turisticos-%E2%80%93-Definiciones.aspx#:~:text=Albergue%2Drefugio%2Dhostal%3A%20Establecimiento,propios%20alimentos%2C%20sin%20perjuicio%20de',
+    },
+    {
+      tema: 'Que es un Servicio de Catering',
+      referencia:
+        'InEventos. (s.f.). ¿Qué es un servicio de catering? InEventos.',
+      tipo: 'Blog página <i>web</i>',
+      link: 'https://www.ineventos.co/blog/que-es-un-catering.html',
+    },
+    {
+      tema: 'Cómo preparar la Mesa para un Banquete',
+      referencia:
+        'MasterD (2012). <i>Cómo preparar la Mesa para un Banquete.</i> [video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LNWVQQnv2Qo ',
+    },
+    {
+      tema: 'Elaboración del menú en hoteles y restaurantes',
+      referencia:
+        'Trujillo. L. M. (2015). <i>Elaboración del menú en hoteles y restaurantes.</i> Gestiopolis.',
+      tipo: 'Blog página <i>web</i>',
+      link:
+        'https://www.gestiopolis.com/elaboracion-del-menu-en-hoteles-y-restaurantes/',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Brunch</em>',
+      significado:
+        'La equivalencia de este término en español podría ser ‘tentempié’ a media mañana. La fusión del desayuno y el almuerzo anglosajón (sobre todo en América del Norte). <i>Brunch</i> es la fusión de las palabras inglesas <i>Breakfast</i> y <i>Lunch</i>. (protocolo.org, 2022).',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Buffet</em>',
+      significado:
+        'Término en idioma inglés que significa registrarse, usado en el sector hotelero para referirse al proceso de registrar la llegada de personas que se alojarán en un hotel.',
+    },
+    {
+      termino: '<em>Check-in</em>',
+      significado:
+        'Término en idioma inglés que significa registrarse, usado en el sector hotelero para referirse al proceso de registrar la llegada de personas que se alojarán en un hotel.',
+    },
+    {
+      termino: '<em>Check-out</em>',
+      significado:
+        'Término en idioma inglés que significa verificar, usado en el sector hotelero para referirse al proceso de realizar la salida y cancelación de la cuenta general por la renta de una habitación a un huésped.',
+    },
+    {
+      termino: '<em>Cocktail</em>',
+      significado:
+        'También mencionado como cóctel, es una combinación de diferentes bebidas, por lo general alcohólicas. El concepto también se emplea para nombrar un tipo de evento o reunión social donde los asistentes beben cócteles. (Pérez y Merino).',
+    },
+    {
+      termino: 'Menú',
+      significado:
+        'Es un término con varios usos, de acuerdo con el contexto. Puede tratarse del conjunto de los platos que constituyen una comida (desayuno, almuerzo, merienda o cena). (Pérez y Gardey).',
+    },
+    {
+      termino: 'Norma Técnica Sectorial Colombiana, NTSH 006',
+      significado:
+        'Norma que especifica requisitos de gestión, así como aquellos relacionados con la sostenibilidad ambiental, sociocultural y económica, aplicables a un destino turístico o a un área turística dentro del mismo.',
+    },
+    {
+      termino: 'RUNT',
+      significado:
+        'En Colombia, es el Registro Único Nacional de Tránsito, un sistema de información que permite registrar y mantener actualizada, centralizada, autorizada y validada la misma sobre los registros de automotores, conductores, licencias de tránsito, empresas de transporte público, infractores, accidentes de tránsito, seguros, remolques y semirremolques, maquinaria agrícola y de construcción autopropulsada y de personas naturales o jurídicas que prestan servicio al sector. (art. 8 y 9 de la Ley 769 de 2002 y la parte pertinente de la Ley 1005 de 2006).',
+    },
+    {
+      termino: 'SOAT',
+      significado:
+        'En Colombia, es un seguro obligatorio establecido por Ley con un fin netamente social. Su objetivo es asegurar la atención, de manera inmediata e incondicional, de las víctimas de accidentes de tránsito que sufren lesiones corporales y muerte.',
+    },
+    {
+      termino: '<em>Vernissage</em>',
+      significado:
+        'Es un tipo de recepción-celebración utilizado en eventos, principalmente, culturales; en sus orígenes, era una celebración previa a la inauguración de una exposición de pintura. (protocolo.org).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Página web | Córdoba A.C. (2017). <i>Origen e historia de los eventos en el mundo y en Colombia.</i> Prezi ',
+      link:
+        'https://prezi.com/rb6nljzxlrzk/origen-e-historia-de-los-eventos-en-el-mundo-y-en-colombia/',
+    },
+    {
+      referencia:
+        'Libro digital | Cuadrado Esclapez, C. & Rodríguez Cuadrado, R. (2014). <i>El ABC en la organización de eventos</i> (2a. ed.). FC Editorial. ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/128999?page=2',
+    },
+    {
+      referencia:
+        'Libro | Fernando, Ramos y Barrera Torre. (2006). <i>Operación de Hoteles</i> 1. Editorial Trillas.',
       link: '',
+    },
+    {
+      referencia:
+        'Página web | Instituto Mediterráneo Estudios de Protocolo. (s.f.). <i>¿Qué es un evento y cómo se puede clasificar?</i> Protocolo Imep.',
+      link:
+        'https://www.protocoloimep.com/articulos/que-es-un-evento-y-clasificacion/#comments',
+    },
+    {
+      referencia:
+        'Libro | Luis di Muro. (1999). <i>Manual Práctico de Recepción Hotelera.</i> Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Libro | Martínez Altamirano. (2017). <i>Organización de eventos</i> (Primera edición. ed.). México: Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Página web | Ministerio de Comercio, Industria y Turismo. (2009). <i>Norma Técnica Sectorial Colombiana NTSH 006, Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles, requisitos.</i>',
+      link:
+        'https://www.mincit.gov.co/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-sectoriales/nts-alojamiento-y-hospedaje-1/norma-tecnica-sectorial-colombiana-ntsh-006-i-actu ',
+    },
+    {
+      referencia:
+        'Página web | Pérez, J. y Merino, M. (2018). <i>Definición de cóctel.</i> Definicion.de.',
+      link: 'https://definicion.de/coctel/',
+    },
+    {
+      referencia:
+        'Página web | Pérez, J. y Gardey, A. (2014). <i>Definición de menú.</i> Definicion.de.',
+      link: 'https://definicion.de/menu-2/',
+    },
+    {
+      referencia:
+        'Página web | Protocolo & Etiqueta. (2022). <i>Qué es un brunch. Cuando se hace un brunch. Qué se come en un brunch.</i> Protocolo.org.',
+      link:
+        'https://www.protocolo.org/social/la-mesa/el-brunch-que-es-y-cuando-se-hace.html',
+    },
+    {
+      referencia:
+        'Página web | Protocolo & Etiqueta. (2021). <i>¿Qué es una “vernissage”?</i> Protocolo.org.',
+      link:
+        'https://www.protocolo.org/social/etiqueta-social/que-es-una-vernissage.html ',
+    },
+    {
+      referencia:
+        'Libro | Rodríguez Cuadrado y Cuadrado Esclapez. (2014). <i>El ABC En La Organización de Eventos.</i> (Segunda edición). FC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Página web | RUNT (s.f.). <i>Sobre el RUNT, ¿Qué es el RUNT?</i>',
+      link: 'https://www.runt.com.co/sobre-runt/que-es-runt',
+    },
+    {
+      referencia:
+        'Página web | Significados. (s.f.) <i>Significado de Buffet</i>. Significados.com.',
+      link: 'https://www.significados.com/buffet/ ',
+    },
+    {
+      referencia:
+        'PDF | Sumoza Matos J. (2019). <i>Turismo comunitario, turismo digital, turismo informacional, turismo inteligente.</i> Revista Turydes: Turismo y Desarrollo, n. 26. En línea:',
+      link: 'https://www.eumed.net/rev/turydes/26/turismo-tipos.pdf',
     },
   ],
   creditos: {

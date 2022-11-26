@@ -1,19 +1,418 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotation 15s infinite linear
     position: absolute
+    top: 6%
+    right: 7%
+    width: 100%
+    z-index: -1
+
+
+
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
+
+
+.banner-principal__img
+  width: 350px !important
+  z-index: 1
+
+////////////// imagenes //////////////import css-variables from 
+
+.img1-intro
+  position: relative
+  margin-top: 0%
+  margin-left: -20%
+  margin-bottom: 0%
+  max-width: 200%
+  width: 150%
+
+.img1-tm1
+  position: relative
+  margin-top: -40%
+  margin-left: -30%
+  margin-bottom: -50%
+  max-width: 300%
+  width: 230%
+  @media (max-width: 500px)
+    position: relative
+    margin-top: 0%
+    margin-left: 0%
+    margin-bottom: 0%
+    max-width: 100%
+    width: 100%
+
+.img12-tm1
+  width: 80%
+
+.img13-tm1
+  position: relative
+  margin-top: 0%
+  margin-left: -15%
+  margin-bottom: 0%
+  max-width: 200%
+  width: 145%
+
+.img33-tm1
+  position: relative
+  margin-top: -27%
+  margin-left: -50%
+  margin-bottom: -50%
+  max-width: 300%
+  width: 130%
+  @media (max-width: 500px)
+    position: relative
+    margin-top: 0%
+    margin-left: 0%
+    margin-bottom: 0%
+    max-width: 100%
+    width: 100% 
+
+.img8-tm2
+  position: relative
+  margin-top: -18%
+  margin-left: -55%
+  margin-bottom: -50%
+  max-width: 200%
+  width: 170%
+  @media (max-width: 500px)
+    position: relative
+    margin-top: 0%
+    margin-left: 0%
+    margin-bottom: 0%
+    max-width: 100%
+    width: 100% 
+
+.img31-tm3
+  position: relative
+  margin-top: -30%
+  margin-left: -10%
+  margin-bottom: -50%
+  max-width: 300%
+  width: 170%
+  @media (max-width: 500px)
+    position: relative
+    margin-top: 0%
+    margin-left: 0%
+    margin-bottom: 0%
+    max-width: 100%
+    width: 100%
+
+.img-8-a-15-tm3
+  position: relative
+  max-width: 300%
+  width: 250%
+  right:  150%
+  @media (max-width: 500px)
+    width: 100%
+    left: 80%
+
+.img16-tm3
+  position: absolute
+  top: 16%
+  left: 68%
+  width: 29%
+  @media (max-width: 500px)
+    position: relative !important
+    width: 25% !important
+    margin-top: -50% !important
+    left: 70% !important
+
+.img32-a-35-tm3
+  position: relative
+  max-width: 300%
+  width: 200%
+  left: -100%
+  @media (max-width:500px)
+    position: relative
+    width: 100% !important
+    left: 0% !important
+
+.img36-tm3
+  width: 90%
+  @media (max-width:500px)
+    width: 100%
+
+
+////////// Cajon color //////////import css-variables from 
+
+.cajon.color-acento-botones
+    background-color: #E2DAFC
+
+.cajon.color-primario 
+    background-color: #FFF6DB
+
+
+/////////// tarjetas ////////////import css-variables from 
+
+.tarjeta--morada
+  background-color: #E2DAFC
+  border-radius: 10px
+
+.tarjeta--morada2
+  background-color: #8C6DF2
+  margin-top: -15px
+
+.tarjeta--morada3
+  widows: 280px
+  height: 450px
+
+.tarjeta--cafe
+  background-color: #FFF4E4
+
+.tarjeta--amarilla
+  background-color: #FEDC72
+
+.tarjeta--amarilla2
+  background-color: #FFF8E3
+  border-radius: 10px
+
+.tarjeta--gris2
+  background-color: #727997
+
+.tarjeta--1
+    border-top-left-radius: 30px
+    border-top-right-radius: 30px
+    background-color: #D2E1F1
+
+.tarjeta--2
+  background-color: #EEE9FD
+
+.tarjeta--3
+  background-color: #D2E1F1
+
+.tarjeta--4
+    border-bottom-left-radius: 30px
+    border-bottom-right-radius: 30px
+    background-color: #EEE9FD
+
+
+////////////////// colores-----------------------
+
+.color-morado
+  background-color: #E8E2FD
+
+/////////////// Ccolor viñeta ---------------------
+
+.color-vineta1
+  color: #8C6DF2 !important
+  font-size: 25px
+
+/////////// slyder A -------------------------
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #8C6DF2
+  opacity: 1
+
+.slyder-a__bullets__item
+  background-color: #FDB74D
+  border-color: #FDB74D
+
+///////////////// Bloque texto g  -----------------------
+
+.bloque-texto-g1__texto 
+  position: relative;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 500px)
+    position: relative
+    width: 100%
+    margin-top: -55%
+    background-color: rgba(255, 255, 255, 0.95)
+
+.bloque-texto-g1__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 0
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    width: 100%
+    height: 150px
+
+.bloque-texto-g2__img 
+  width: 50%
+  position: absolute
+  top: 0
+  left: 50%
+  bottom: 0
+  background-position: center
+  background-size: cover
+  @media (max-width: 500px)
+    width: 100%
+    height: 250px
+    left: 0%
+
+.bloque-texto-g2__texto 
+  position: relative
+  width: 60%
+  right: 40%
+  background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 500px)
+    width: 100%
+    right: 0%
+    position: relative
+    width: 100%
+    background-color: rgba(255, 255, 255, 0.95)
+
+
+
+
+
+///// Custom acordeon A tipo A -------------------------------------- 
+
+.acordion__accion__btn--a
+  background-color: #ffffff !important
+
+.acordion__activo
+  background-color: #8C6DF2 !important
+
+.fa-plus:before
+  color: #5038A1
+
+.fa-minus:before
+  color: #FDB74D
+
+/////////////// Bloque texto B ------------------------------
+
+.bloque-texto-b1
+  position: relative
+  &::before  
     top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    bottom: 5%
+    left: 0%
+    right: 40%
+    content: ''
+    display: block
     position: absolute
-    top: 51%
+    background-color: #E8E2FD !important
+    border-radius: 10px
+  &__texto 
+      position: relative
+
+.bloque-texto-b2
+  position: relative
+  &::before  
+    top: 60%
+    bottom: 5%
+    left: 30%
+    right: 0%
+    content: ''
+    display: block
+    position: absolute
+    background-color: #E8E2FD !important
+    border-radius: 10px
+  &__texto 
+      position: relative
+
+.bloque-texto-b3
+  position: relative
+  margin-top: -5%
+  &::before
+    top: 50%
+    bottom: 20%
+    left: 40%
+    right: -10%
+    content: ''
+    display: block
+    position: absolute
+    background-color: #FFF6DB !important
+    @media (max-width: 500px)
+      right: 0%
+
+  &__texto 
+      position: relative
+
+.bloque-texto-b4
+  position: relative
+  &::before  
+    top: 0%
+    bottom: 65%
+    left: 0%
     right: 30%
+    content: ''
+    display: block
+    position: absolute
+    background-color: #FFF6DB !important
+  &__texto 
+      position: relative
+
+.bloque-texto-b5
+  position: relative
+  &::before  
+    top: 65%
+    bottom: 0%
+    left: 30%
+    right: 0%
+    content: ''
+    display: block
+    position: absolute
+    background-color: #FFEDD2 !important
+  &__texto 
+      position: relative
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
 
-  100%
-    transform: translateY(0px)
+  .crd_hover_txt--body
+    position: absolute
+    padding: 0.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 1.85rem ))
+    background-color: #5038A1
+    width: 260px
+    height: 270px
+    left: 10%
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+////////////// COLOR VIÑETAS -----------------------------
+
+.color-vineta1
+  color: #8C6DF2 !important
+
+/////////////// Pasos B -------------------------
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #D2E1F1
+  background-color: #D2E1F1
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: #8C6DF2
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: #8C6DF2
+
+
+
+
+///////////////// Taps A ---------------------
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+
+
+
+.hr--line
+  margin: 0.5rem 0
+  width: 100%
+  height: 2px  
+  background-color: #B0C0D2
