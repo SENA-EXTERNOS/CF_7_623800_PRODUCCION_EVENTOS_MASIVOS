@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
+        span.texto-blanco 3
       h1 Alimentos y bebidas
 
     .row.justify-content-center.my-5
@@ -167,11 +167,11 @@
 
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-left")
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-5.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img17.svg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-3
             p.mb-0 Existen variedad de técnicas para presentar los alimentos y bebidas, buscando tanto practicidad como llamar la atención de los participantes. El personal encargado de alimentos y bebidas debe contar con la formación necesaria para atender servicios de AyB, y el organizador debe verificar que se disponga de los recursos suficientes para su desarrollo. 
 
     .row.my-5
@@ -250,8 +250,7 @@
           p En el video anterior se mostraron los elementos básicos del montaje, sin embargo, existen otros complementos, como saleros, pimenteros y elementos decorativos que pueden hacer parte de un montaje. La ubicación de mesas en un salón o recinto varía de acuerdo con el tipo de evento y las actividades a realizar en este.      
 
     .row.mt-5
-      .col-lg-10
-        p Estos son los montajes de salones y mesas más usados en eventos:
+      p Estos son los montajes de salones y mesas más usados en eventos:
 
     .row.justify-content-center.my-5
       TabsC.color-primario
@@ -346,6 +345,9 @@
             .col-8.col-lg-2
               figure
                 img(src='@/assets/curso/temas/tema3/img31.svg', alt='').img31-tm3
+
+    .row.my-5
+      p.text-center Para desarrollar el menú, el organizador debe tener en cuenta:
 
     .row.justify-content-center.my-5
       .col-lg-10

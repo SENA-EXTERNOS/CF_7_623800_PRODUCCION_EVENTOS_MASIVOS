@@ -5,7 +5,7 @@
   
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span
+        span.texto-blanco
           i.fas.fa-info
       h1 Introducción
 

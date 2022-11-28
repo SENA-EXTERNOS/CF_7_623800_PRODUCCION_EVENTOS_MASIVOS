@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
+        span.texto-blanco 1
       h1 Titulo de primer nivel
       
     .row.justify-content-center.my-5
@@ -42,8 +42,7 @@
             p.mb-0 Actualmente el mercado tiene una variada oferta relacionada directamente con la necesidad, el tipo de cliente y/o usuario, la cual se renueva de forma dinámica, creando mejoras a sus conceptos conforme varían las expectativas e intereses del turista.
 
     .row.my-5
-      .col-lg-10
-        p A continuación, se describen tres grupos de hospedaje:
+      p A continuación, se describen tres grupos de hospedaje:
 
     TabsC.color-primario
       .tarjeta--morada2.p-lg-5.p-3(titulo="Alojamientos naturales y ecológicos")
@@ -80,7 +79,11 @@
             figure
               img(src='@/assets/curso/temas/tema1/img7.svg', alt='')
           .col-lg-9
-            p Los alojamientos pueden ser tan diversos como conceptos se puedan crear de este servicio; siempre se contará con la variable de la creatividad del empresario para atraer a un segmento especializado de clientes. No obstante, podremos encontrar algunas consideraciones generales que tienen que ver con el tamaño, modalidad o categoría. s
+            p Los alojamientos pueden ser tan diversos como conceptos se puedan crear de este servicio; siempre se contará con la variable de la creatividad del empresario para atraer a un segmento especializado de clientes. No obstante, podremos encontrar algunas consideraciones generales que tienen que ver con el tamaño, modalidad o categoría.
+
+    .row.justify-content-center.my-5
+      .col-lg-10
+        p Dentro de las clasificaciones generales encontramos:
 
     .tarjeta.tarjeta--cafe.p-lg-5.p-3
       SlyderA(tipo="b")
@@ -90,13 +93,13 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Pequeños: establecimientos con menos de 50 habitaciones, en su mayoría negocios familiares, administrados generalmente por sus propietarios. En algunos casos cuentan con servicios adicionales, como restaurante, zonas húmedas, parqueaderos, entre otros.
+                p #[strong Pequeños:] establecimientos con menos de 50 habitaciones, en su mayoría negocios familiares, administrados generalmente por sus propietarios. En algunos casos cuentan con servicios adicionales, como restaurante, zonas húmedas, parqueaderos, entre otros.
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Medianos: con máximo 150 habitaciones (dependiendo del país), son unidades empresariales más establecidas, con mayor cantidad de personal y una estructura de trabajo mejor diseñada con funciones y procesos específicos. Cuentan con servicios complementarios asociados.
+                p #[strong Medianos:] con máximo 150 habitaciones (dependiendo del país), son unidades empresariales más establecidas, con mayor cantidad de personal y una estructura de trabajo mejor diseñada con funciones y procesos específicos. Cuentan con servicios complementarios asociados.
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Grandes: empresas con más de 150 habitaciones, son estructuras más complejas, con áreas administrativas y operativas más estructuradas, pueden contar con el respaldo de grandes cadenas empresariales y poseen un portafolio con variedad de servicios complementarios. Cuentan con una alta gerencia que se encarga de dar estrategia y responder por la eficacia del negocio.
+                p #[strong Grandes:] empresas con más de 150 habitaciones, son estructuras más complejas, con áreas administrativas y operativas más estructuradas, pueden contar con el respaldo de grandes cadenas empresariales y poseen un portafolio con variedad de servicios complementarios. Cuentan con una alta gerencia que se encarga de dar estrategia y responder por la eficacia del negocio.
 
           .col-md-4.my-5
             figure
@@ -108,10 +111,10 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Comerciales o de ciudad: establecimientos que se concentran en centros urbanos, variando en tamaño y servicios adicionales, generalmente enfocados en viajeros de negocios, tales como centros de negocios, wifi, desayunos, televisión por cable o digital con variedad de canales, incluyendo noticias en varios idiomas, servicio de lavandería las 24 horas, entre otros.
+                p #[strong Comerciales o de ciudad:] establecimientos que se concentran en centros urbanos, variando en tamaño y servicios adicionales, generalmente enfocados en viajeros de negocios, tales como centros de negocios, wifi, desayunos, televisión por cable o digital con variedad de canales, incluyendo noticias en varios idiomas, servicio de lavandería las 24 horas, entre otros.
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Vacacionales: generalmente ubicados en sitios turísticos, playas, montañas o cerca de parques de diversiones; su estructura varía de acuerdo con el número de visitantes y temporadas. El objetivo primordial es la diversión y el esparcimiento familiar pues cuentan con programas como excursiones, centros de baile, espacios temáticos, entre otros.
+                p #[strong Vacacionales:] generalmente ubicados en sitios turísticos, playas, montañas o cerca de parques de diversiones; su estructura varía de acuerdo con el número de visitantes y temporadas. El objetivo primordial es la diversión y el esparcimiento familiar pues cuentan con programas como excursiones, centros de baile, espacios temáticos, entre otros.
 
           .col-md-4.my-5
             figure
@@ -123,10 +126,10 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Por estrellas:  son calificados por la calidad general en servicio e infraestructura, otorgando estrellas de acuerdo con su puntuación, siendo una estrella la categoría que representa establecimientos sencillos, y cinco estrellas aquellos con infraestructuras y servicios de mayor lujo.
+                p #[strong Por estrellas:] son calificados por la calidad general en servicio e infraestructura, otorgando estrellas de acuerdo con su puntuación, siendo una estrella la categoría que representa establecimientos sencillos, y cinco estrellas aquellos con infraestructuras y servicios de mayor lujo.
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Por letras claves: la filosofía es similar a la anterior, pero se otorgan letras en lugar de estrellas:  AA, A, B, C y D.
+                p #[strong Por letras claves:] la filosofía es similar a la anterior, pero se otorgan letras en lugar de estrellas:  AA, A, B, C y D.
 
           .col-md-4.my-5
             figure
@@ -134,10 +137,11 @@
 
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
+            h4 Según su agrupación: 
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right.color-vineta
-                | Pueden ser establecimientos que se consideran independientes o que hacen parte de una cadena hotelera de nivel nacional o internacional. 
+                p Pueden ser establecimientos que se consideran independientes o que hacen parte de una cadena hotelera de nivel nacional o internacional. 
  
           .col-md-5
             figure
@@ -201,11 +205,11 @@
           p Vivienda familiar que presta el servicio de alojamiento en unidades habitacionales, preferiblemente de arquitectura autóctona, cuyo principal propósito es promover la generación de empleo e ingresos a las familias residentes, prestadoras del servicio. (DASP, p. 2).
 
         .tarjeta.color-acento-botones.p-3(x="75%" y="90%" numero="6")
-          .h5.mb-2 Alojamiento rural - lodge 
+          .h5.mb-2 Alojamiento rural - #[i lodge]
           p Establecimiento que presta el servicio de alojamiento en unidades habitacionales privadas, ubicado en áreas rurales y cuyo principal propósito es el desarrollo de actividades asociadas a su entorno natural y cultural. Ofrecen además, como mínimo, servicios de alimentación bajo la modalidad de pensión completa, sin perjuicio de proporcionar otros servicios complementarios. (DASP, p. 2).
 
         .tarjeta.color-acento-botones.p-3(x="85%" y="90%" numero="7")
-          .h5.mb-2 Recinto de campamento o camping
+          .h5.mb-2 Recinto de campamento o #[i camping]
           p Establecimiento que presta el servicio de alojamiento en un terreno debidamente delimitado, asignándole un sitio a cada persona o grupo de personas que hacen vida al aire libre y que utilicen carpas, casas rodantes u otras instalaciones similares para pernoctar en contacto con la naturaleza. (DASP, p. 2).
 
     separador
@@ -319,7 +323,7 @@
       .col-lg-6
         p Los hoteles proponen diferentes tipos de reservas de acuerdo con las necesidades de los clientes. Por ello, el organizador debe conocerlas para poder crear mejores propuestas a sus clientes.            
         .cajon.color-acento-botones.p-3  
-          p.text-center Las reservas pueden ser:
+          p.text-center #[strong Las reservas pueden ser:]
         .row.justify-content-center.my-3
           .col-lg-10(data-aos="fade-up-right")
             figure
@@ -349,7 +353,7 @@
     .row.justify-content-center.my-5
       figure
         img(src="@/assets/curso/temas/tema1/img27.svg")
-        figcaption Elaboración experto temático
+        figcaption.mt-3 Elaboración experto temático
 
     .row.my-5
       h4 Planes hoteleros y para grupos 
@@ -416,7 +420,7 @@
       .col-lg-6
         figure
           img(src="@/assets/curso/temas/tema1/img32.svg")
-          figcaption Elaboración experto temático
+          figcaption.mt-3 Elaboración experto temático
 
     separador
 
@@ -433,6 +437,10 @@
                 img(src='@/assets/curso/temas/tema1/img33.svg', alt='').img33-tm1        
             .col-lg-10
               p Como se ha visto anteriormente, los establecimientos de alojamiento pueden ofrecer servicios complementarios incluidos en la tarifa o con costos adicionales, en beneficio de las personas que los visitan.
+
+    .row.justify-content-center.my-5
+      .col-lg-10
+        p Algunos de estos servicios pueden ser:
 
     .row.justify-content-center.my-5
       .col-lg-10    
@@ -488,13 +496,13 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 3
-          p(data-aos="fade-down").mb-0 #[i Formato: levantamiento necesidades de alojamiento.]
+          p(data-aos="fade-down").mb-0 #[i Formato de control y seguimiento de participantes del evento, registro, hotel.]
 
     .row.justify-content-center.my-3
       .col-lg-10
         figure
           img(src="@/assets/curso/temas/tema1/img36.svg")
-          figcaption Elaboración experto temático
+          figcaption.mt-3 Elaboración experto temático
 
 </template>
 

@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
+        span.texto-blanco 2
       h1 Transporte de pasajeros e importancia
 
     .row.justify-content-center.my-5(data-aos="flip-down")
@@ -30,6 +30,10 @@
               img(src='@/assets/curso/temas/tema2/img2.svg', alt='')            
           .col-lg-6(data-aos="fade-up-left")
             p.mt-4 Las opciones de transporte son variadas debido a que podemos encontrar transporte aéreo, fluvial, marítimo, terrestre, con diferentes tipologías en cada una de ellas.  Sin embargo, se explicarán dos clasificaciones importantes, independientemente del medio en el cual se desarrolle. 
+
+    .row.justify-content-center.my-5
+      .col-lg-10
+        p Estas clasificaciones son:
 
     TabsC.color-primario
       .tarjeta--morada2.p-lg-5.p-3(titulo="Transporte comercial")
@@ -78,8 +82,9 @@
                 p El organizador debe conocer la necesidad e información de los traslados de los asistentes y garantizar su movilidad, dependiendo el tipo de evento y su responsabilidad frente a este servicio. En función de la actividad a desarrollar, se puede requerir desde un auto clásico para una boda, el traslado de una persona del aeropuerto al hotel o viceversa, movilizar a cientos de personas en buses de un punto de encuentro al lugar del evento, trasladar participantes, equipos, invitados especiales y demás, en avión entre ciudades o países, entre otros.
 
     .row.justify-content-center
-      .cajon.color-acento-botones.p-3
-        p Organizar las necesidades específicas de transporte es otra responsabilidad del organizador de eventos, para ello se hace indispensable que cree su propio formato de transporte. A continuación, se presenta un modelo de formato que servirá para dicho propósito:
+      .col-lg-10
+        .cajon.color-acento-botones.p-3
+          p Organizar las necesidades específicas de transporte es otra responsabilidad del organizador de eventos, para ello se hace indispensable que cree su propio formato de transporte. A continuación, se presenta un modelo de formato que servirá para dicho propósito:
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -91,7 +96,7 @@
       .col-lg-10
         figure
           img(src='@/assets/curso/temas/tema2/img7.svg', alt='')
-          figcaption Elaboración experto temático
+          figcaption.mt-3 Elaboración experto temático
 
     separador
 
