@@ -124,7 +124,7 @@
         ul.lista-ul--color
           li 
             i.fas.fa-angle-right.color-vineta1
-            | Licencia de tránsito y/o tarjeta de operación, vigente
+            | Licencia de tránsito y/o tarjeta de operación, vigente.
           li 
             i.fas.fa-angle-right.color-vineta1
             | Certificado de inscripción en el Registro Nacional de Conductores de Transporte Especial del RUNT. 
@@ -139,10 +139,10 @@
             | Formato Único del Contrato - FUEC.
           li 
             i.fas.fa-angle-right.color-vineta1
-            | Licencia de conducción para vehículo de servicio público en las categorías C1 o C2, según correspocnda.
+            | Licencia de conducción para vehículo de servicio público en las categorías C1 o C2, según corresponda.
           li 
             i.fas.fa-angle-right.color-vineta1
-            | Seguro Obligatorio de Accidentes de c, SOAT, vigente.
+            | Seguro Obligatorio de Accidentes de Tránsito, SOAT, vigente.
           li 
             i.fas.fa-angle-right.color-vineta1
             | Documento de identidad del conductor vinculado en el FUEC.

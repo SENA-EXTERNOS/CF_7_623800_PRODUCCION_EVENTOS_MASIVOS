@@ -53,7 +53,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Procedimiento de reservas, prerregistro y check-in',
+            titulo: 'Procedimiento de reservas, prerregistro y <i>check-in</i>',
             hash: 't_1_4',
           },
         ],
@@ -171,9 +171,9 @@ export default {
         'https://www.mincit.gov.co/getattachment/f7c53ff0-36c2-435b-884c-bb5e847f8866/Prestadores-de-servicios-turisticos-%E2%80%93-Definiciones.aspx#:~:text=Albergue%2Drefugio%2Dhostal%3A%20Establecimiento,propios%20alimentos%2C%20sin%20perjuicio%20de',
     },
     {
-      tema: 'Que es un Servicio de Catering',
+      tema: 'Que es un Servicio de <i>Catering</i>',
       referencia:
-        'InEventos. (s.f.). ¿Qué es un servicio de catering? InEventos.',
+        'InEventos. (s.f.). <i>¿Qué es un servicio de catering?</i> InEventos.',
       tipo: 'Blog página <i>web</i>',
       link: 'https://www.ineventos.co/blog/que-es-un-catering.html',
     },
@@ -202,7 +202,7 @@ export default {
     {
       termino: '<em>Buffet</em>',
       significado:
-        'Término en idioma inglés que significa registrarse, usado en el sector hotelero para referirse al proceso de registrar la llegada de personas que se alojarán en un hotel.',
+        'También llamado en español bufet o bufé, es un estilo de servicio donde una comida es servida y dispuesta sobre una mesa, para que los comensales se sirvan a sí mismos los alimentos. (significados.com).',
     },
     {
       termino: '<em>Check-in</em>',

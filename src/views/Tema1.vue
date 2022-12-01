@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.texto-blanco 1
-      h1 Titulo de primer nivel
+      h1 Alojamiento y hospedaje
       
     .row.justify-content-center.my-5
       .col-lg-6.my-5(data-aos="fade-right")
@@ -186,7 +186,7 @@
 
         .tarjeta.color-acento-botones.p-3(x="17%" y="90%" numero="1")
           .h5.mb-2 Albergue - Refugio - Hostal
-          p “Establecimiento que presta el servicio de alojamiento preferentemente en habitaciones semi privadas [sic] o comunes, al igual que sus baños, puede disponer además de un recinto común equipado adecuadamente para que los huéspedes se preparen sus propios alimentos, sin perjuicio de proporcionar otros servicios complementarios.” (DASP, p. 2).
+          p “Establecimiento que presta el servicio de alojamiento preferentemente en habitaciones semi privadas [#[i sic]] o comunes, al igual que sus baños, puede disponer además de un recinto común equipado adecuadamente para que los huéspedes se preparen sus propios alimentos, sin perjuicio de proporcionar otros servicios complementarios.” (DASP, p. 2).
 
         .tarjeta.color-acento-botones.p-3(x="27%" y="90%" numero="2")
           .h5.mb-2 Apartahotel
@@ -469,6 +469,9 @@
 
           .tarjeta.color-primario.p-3(x="95%" y="93%" numero="7")
             p.text-center Transporte
+
+          .tarjeta.color-primario.p-3(x="97%" y="55%" numero="8")
+            p.text-center Tiendas al interior del hotel
 
     separador
 

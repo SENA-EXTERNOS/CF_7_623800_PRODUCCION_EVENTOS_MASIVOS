@@ -32,7 +32,7 @@
 
         .row.justify-content-center(titulo="")
           .col-md-6.mb-4.mb-md-0
-            p La persona o empresa que organiza el evento debe contar con diferentes proveedores de catering o empresas hoteleras, verificando sus instalaciones, cumplimiento, calidad, puntualidad, presentación y variedad de menús para cada ocasión, además de los precios y servicios de entrega. 
+            p La persona o empresa que organiza el evento debe contar con diferentes proveedores de #[i catering] o empresas hoteleras, verificando sus instalaciones, cumplimiento, calidad, puntualidad, presentación y variedad de menús para cada ocasión, además de los precios y servicios de entrega. 
 
           .col-md-4
             figure
