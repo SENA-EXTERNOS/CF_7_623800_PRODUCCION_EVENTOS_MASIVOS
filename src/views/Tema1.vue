@@ -14,8 +14,8 @@
       .col-lg-6
         p(data-aos="fade-down-left") Es importante que un organizador de eventos conozca las bases de la hotelería y su funcionamiento, con el fin de que pueda gestionar la información necesaria, en beneficio de sus clientes y el logro de los objetivos propuestos en cada evento.
         .cajon.color-acento-botones.p-3(data-aos="fade-up-left")
-          p Se debe comprender que el alojamiento es un servicio ofrecido por diferentes tipos de establecimientos, especializados en proporcionar al público instalaciones con comodidades específicas para poder pernoctar, es decir, pasar la noche, sin que esta situación sea de carácter permanente. Entonces, un establecimiento de alojamiento u hospedaje se puede definir como el lugar físico que ofrece la posibilidad para alojarse temporalmente y que puede prestar servicios adicionales y/o complementarios.
-
+          p.mb-0 Se debe comprender que el alojamiento es un servicio ofrecido por diferentes tipos de establecimientos, especializados en proporcionar al público instalaciones con comodidades específicas para poder pernoctar, es decir, pasar la noche, sin que esta situación sea de carácter permanente. Entonces, un establecimiento de alojamiento u hospedaje se puede definir como el lugar físico que ofrece la posibilidad para alojarse temporalmente y que puede prestar servicios adicionales y/o complementarios.     
+    h3.my-5 Origen del alojamiento
     .row.my-5(data-aos="flip-up")
       .col-lg-11
         .tarjeta--morada.p-4
@@ -26,11 +26,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img2.svg', alt='').img1-tm1        
 
-    separador
-
-    #t_1_1    
-    .titulo-segundo.color-acento-contenido
-      h2 1.1  Tipos de alojamiento, hospedaje, acomodación y tarifas
+    h3.my-5 Tipos de alojamiento, hospedaje, acomodación y tarifas
 
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-down")
@@ -39,10 +35,10 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img3.svg')})`}"
           )
           .bloque-texto-g1__texto.p-4
-            p.mb-0 Actualmente el mercado tiene una variada oferta relacionada directamente con la necesidad, el tipo de cliente y/o usuario, la cual se renueva de forma dinámica, creando mejoras a sus conceptos conforme varían las expectativas e intereses del turista.
+            p.mb-0 Actualmente el mercado tiene una oferta diversa relacionada directamente con la necesidad y el tipo de cliente y/o usuario, la cual se renueva de forma dinámica, creando mejoras a sus conceptos, conforme varían las expectativas e intereses del turista.
 
     .row.my-5
-      p A continuación, se describen tres grupos de hospedaje:
+      p Según estas necesidades o intereses, podemos describir tres grandes grupos de tipo de hospedaje:
 
     TabsC.color-primario
       .tarjeta--morada2.p-lg-5.p-3(titulo="Alojamientos naturales y ecológicos")
@@ -52,7 +48,7 @@
               img(src='@/assets/curso/temas/tema1/img4.svg', alt='')
 
           .col-md-6
-            p.texto-blanco.mt-4 Desde grandes y majestuosos parques naturales y/o reservas en diferentes países, hasta pequeños oasis encantadores hacen parte de estas nuevas propuestas. En la actualidad, debido a la ola verde y ecologista, los consumidores buscan espacios abiertos, naturales y sobre todo sostenibles, aportando al desarrollo del turismo en espacios rurales. Estas áreas abiertas generan una sensación de libertad e incluyen paisajes pintorescos, como montañas, playas, nevados, etc. Son alojamientos cómodos que prestan diversos servicios y pueden contemplar actividades de interacción con el lugar y su comunidad.
+            p.texto-blanco.mt-4 Desde grandes y majestuosos parques naturales y/o reservas en diferentes países, hasta pequeños oasis encantadores hacen parte de estas nuevas propuestas. En la actualidad, debido a la ola verde y ecologista, los consumidores buscan espacios abiertos, naturales y sobre todo sostenibles, aportando al desarrollo del turismo en espacios rurales. Estas áreas abiertas generan una sensación de libertad e incluyen paisajes pintorescos, como montañas, playas, nevados, entre otros. Adicional, en su mayoría son alojamientos cómodos que prestan diversos servicios y pueden contemplar actividades de interacción con el lugar y su comunidad.
 
       .tarjeta--morada2.p-lg-5.p-3(titulo="Alojamiento urbano")
         .row
@@ -61,7 +57,7 @@
               img(src='@/assets/curso/temas/tema1/img5.svg', alt='')
 
           .col-md-6
-            p.texto-blanco.mt-5 Oferta existente en las ciudades, dentro de la cual se puede encontrar gran variedad de alternativas de hospedaje, desde establecimientos pequeños con servicios limitados, hasta grandes cadenas hoteleras con toda una oferta gastronómica y turística.  Aquí compiten por cercanía, servicios, detalles, personalización, entre otras características que buscan los viajeros. 
+            p.texto-blanco.mt-5 Esta es una oferta propia de las ciudades, dentro de la cual se puede encontrar gran variedad de alternativas de hospedaje, desde establecimientos pequeños con servicios limitados, hasta grandes cadenas hoteleras con toda una amplia propuesta gastronómica y turística.  Aquí compiten por cercanía, servicios, detalles, personalización, entre otras características que buscan los viajeros. 
 
       .tarjeta--morada2.p-lg-5.p-3(titulo="Complejos turísticos")
         .row
@@ -70,7 +66,7 @@
               img(src='@/assets/curso/temas/tema1/img6.svg', alt='')
 
           .col-md-6
-            p.texto-blanco.mt-5 Establecimientos de gran extensión, que ofrecen variedad de servicios y actividades de esparcimiento para todas las personas. Se destacan por ofrecer en el mismo complejo todo lo que una persona pueda requerir para sus vacaciones. Las alianzas entre estos grandes conglomerados son insuperables y satisfacen a todos los viajeros.
+            p.texto-blanco.mt-5 Estos son establecimientos de gran extensión, que ofrecen variedad de servicios y actividades de esparcimiento para todas las personas. Se destacan por ofrecer en el mismo complejo todo lo que una persona pueda requerir para sus vacaciones. Las alianzas entre estos grandes conglomerados son insuperables y satisfacen a todos los viajeros.
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -99,7 +95,7 @@
                 p #[strong Medianos:] con máximo 150 habitaciones (dependiendo del país), son unidades empresariales más establecidas, con mayor cantidad de personal y una estructura de trabajo mejor diseñada con funciones y procesos específicos. Cuentan con servicios complementarios asociados.
               li 
                 i.fas.fa-angle-right.color-vineta
-                p #[strong Grandes:] empresas con más de 150 habitaciones, son estructuras más complejas, con áreas administrativas y operativas más estructuradas, pueden contar con el respaldo de grandes cadenas empresariales y poseen un portafolio con variedad de servicios complementarios. Cuentan con una alta gerencia que se encarga de dar estrategia y responder por la eficacia del negocio.
+                p #[strong Grandes:] empresas con más de 150 habitaciones, son estructuras  complejas, con áreas administrativas y operativas estructuradas, pueden contar con el respaldo de grandes cadenas empresariales y poseen un portafolio con variedad de servicios complementarios. Cuentan con una alta gerencia que se encarga de dar estrategia y responder por la eficacia del negocio.
 
           .col-md-4.my-5
             figure
@@ -111,7 +107,7 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-angle-right.color-vineta
-                p #[strong Comerciales o de ciudad:] establecimientos que se concentran en centros urbanos, variando en tamaño y servicios adicionales, generalmente enfocados en viajeros de negocios, tales como centros de negocios, wifi, desayunos, televisión por cable o digital con variedad de canales, incluyendo noticias en varios idiomas, servicio de lavandería las 24 horas, entre otros.
+                p #[strong Comerciales o de ciudad:] establecimientos que se concentran en centros urbanos, variando en tamaño y servicios adicionales, estos últimos generalmente enfocados en viajeros de negocios, tales como centros de negocios, wifi, desayuno, televisión por cable o digital con variedad de canales, incluyendo noticias en varios idiomas, servicio de lavandería las 24 horas, entre otros.
               li 
                 i.fas.fa-angle-right.color-vineta
                 p #[strong Vacacionales:] generalmente ubicados en sitios turísticos, playas, montañas o cerca de parques de diversiones; su estructura varía de acuerdo con el número de visitantes y temporadas. El objetivo primordial es la diversión y el esparcimiento familiar pues cuentan con programas como excursiones, centros de baile, espacios temáticos, entre otros.
@@ -157,8 +153,8 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo 1 OTROS TIPOS DE ALOJAMIENTO
-                  p Para complementar las clasificaciones vistas, descargue y lea el siguiente documento
+                  h5.mb-1 Anexo 1 OTROS TIPOS DE ALOJAMIENTO
+                  p Para complementar las clasificaciones anteriores, descargue y lea el siguiente documento 
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-1_otros_tipos_de_alojamientos.docx')" target="_blank")
                     span.texto-blanco Descargar
@@ -167,7 +163,7 @@
     .row.justify-content-center.my-5
       .col-lg-7
         .cajon.color-acento-botones.p-4(data-aos="fade-up-right")
-          b En Colombia existe la Norma Técnica Sectorial Hotelera, NTSH 006, establecida por El Instituto Colombiano de Normas Técnicas y Certificación, ICONTEC y La Asociación Hotelera de Colombia, COTELCO, quienes definieron la clasificación de los establecimientos para alojamiento y hospedaje y la categorización por estrellas de hoteles. 
+          p.mb-0 En Colombia existe la Norma Técnica Sectorial Hotelera, NTSH 006, establecida por El Instituto Colombiano de Normas Técnicas y Certificación, ICONTEC y La Asociación Hotelera de Colombia, COTELCO, quienes definieron la clasificación de los establecimientos para alojamiento y hospedaje y la categorización por estrellas de hoteles. 
           a.anexo.mb-4.mb-lg-0.mt-3(href="https://drive.google.com/file/d/1rPAEQTb4GM6MZ9HVrawExoeZyI2IBGOs/view?usp=share_link" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link2.svg")
@@ -212,15 +208,11 @@
           .h5.mb-2 Recinto de campamento o #[i camping]
           p Establecimiento que presta el servicio de alojamiento en un terreno debidamente delimitado, asignándole un sitio a cada persona o grupo de personas que hacen vida al aire libre y que utilicen carpas, casas rodantes u otras instalaciones similares para pernoctar en contacto con la naturaleza. (DASP, p. 2).
 
-    separador
-
-    #t_1_2   
-    .titulo-segundo.color-acento-contenido
-      h2 1.2  Criterios de selección
+    h3.my-5 Criterios de selección
 
     .row.justify-content-center
       .cajon.color-primario.p-3
-        p Una vez conocidos los diferentes tipos de establecimientos, se estudiarán algunas variables para tener en cuenta en la selección del lugar más adecuado, acorde a las necesidades y naturaleza del evento a organizar.
+        p.mb-0 Una vez conocidos los diferentes tipos de establecimientos, se estudiarán algunas variables para tener en cuenta en la selección del lugar más adecuado, acorde a las necesidades y naturaleza del evento a organizar.
 
     .row.my-5
       h4 Inventario de camas disponibles
@@ -230,7 +222,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img15.svg', alt='')       
       .col-lg-10
-        p Cuando se habla de la capacidad de un hotel se hace referencia al número de camas disponibles, pues no se debe relacionar uno a uno con el número de habitaciones con las que cuenta el establecimiento, sino con el número de personas que pueden dormir en el mismo. Por tanto, se hace necesario que el organizador de eventos conozca con exactitud cuál es la capacidad real disponible en cada hotel, para poder realizar la acomodación de los asistentes de acuerdo con el evento.
+        p Cuando se habla de la capacidad hotelera se hace referencia al número de camas disponibles, pues no se debe relacionar uno a uno con el número de habitaciones con las que cuenta el establecimiento, sino con el número de personas que pueden dormir en el mismo. Por tanto, se hace necesario que el organizador de eventos conozca con exactitud cuál es la capacidad real disponible en cada hotel, para poder realizar la acomodación de los asistentes de acuerdo con el evento.
         p Es importante tener claridad acerca de los canales de venta, ya que en muchos casos no es solo el hotel el que vende sus servicios; por tanto, el organizador debe entender con quién está negociando: mientras más directo el canal de ventas, mejores tarifas se van a lograr.
 
         .tarjeta.color-primario.p-3.mb-5
@@ -241,7 +233,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo 2 CANALES DE VENTA
+                  h5.mb-1 Anexo 2 CANALES DE VENTA
                   p Para ampliar este tema descargue el anexo
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-2_canales_de_venta_de_hoteles.docx')" target="_blank")
@@ -249,7 +241,7 @@
                     i.fas.fa-file-download
         .row.justify-content-center
           .col-lg-9
-            p De acuerdo con el evento a realizar, el organizador debe enfocarse en la demanda que tiene y buscar los servicios requeridos para ofrecer al cliente la mejor alternativa posible. Para ello, debe crear una base de datos de la oferta hotelera e ir alimentándola; esto le permitirá tener dicha información de manera inmediata, facilitando la toma de decisiones frente a las solicitudes y necesidades de los clientes. 
+            p De acuerdo con el evento a realizar, el organizador debe enfocarse en la demanda que tiene y buscar los servicios requeridos para ofrecer al cliente la mejor alternativa posible. Para ello, debe crear y robustecer una base de datos de la oferta hotelera ; esto le permitirá tener dicha información de manera inmediata, facilitando la toma de decisiones frente a las solicitudes y necesidades de los clientes. 
           .col-8.col-lg-3(data-aos="fade-up-left")
             figure
               img(src="@/assets/curso/temas/tema1/img17.svg")
@@ -264,7 +256,7 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema1/img18.svg' alt='AvatarTop')
-          h3.text-center Habitación sencilla
+          h3.text-center Habitación sencilla o acomodación sencilla
           p.text-center Habitación con una cama (independiente de su tamaño), donde se aloja una sola persona. 
 
         .tarjeta.tarjeta--morada3.color-acento-botones.p-4
@@ -323,7 +315,7 @@
       .col-lg-6
         p Los hoteles proponen diferentes tipos de reservas de acuerdo con las necesidades de los clientes. Por ello, el organizador debe conocerlas para poder crear mejores propuestas a sus clientes.            
         .cajon.color-acento-botones.p-3  
-          p.text-center #[strong Las reservas pueden ser:]
+          p.mb-0.text-center #[strong Las reservas pueden ser:]
         .row.justify-content-center.my-3
           .col-lg-10(data-aos="fade-up-right")
             figure
@@ -344,11 +336,12 @@
           
     .row.justify-content-center.my-5
       .col-lg-10
-        p El siguiente es un ejemplo del formato para la base de datos de establecimientos que debe crear cada organizador de eventos:
+        p Sabiendo que todo organizador de eventos debe ir actualizando una base de datos con la información necesaria de la oferta hotelera, el siguiente es un ejemplo de un formato para la realización de esta base de datos de establecimientos:
 
     .titulo-sexto.color-acento-contenido
       h5 Figura 1
-      p(data-aos="fade-down").mb-0 #[i Inventario camas disponibles.]
+      br
+      em(data-aos="fade-down").mb-0 #[i Inventario camas disponibles.]
 
     .row.justify-content-center.my-5
       figure
@@ -370,13 +363,11 @@
         figure
           img(src="@/assets/curso/temas/tema1/img28.svg")      
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .cajon.color-primario.p-3
-        p Hay eventos que incluyen la participación de niños o familiares, allí se debe considerar muy bien la acomodación, garantizando la comodidad de cada familia o participante; por esto se requiere organización y responsabilidad, manteniendo la información actualizada en el gráfico anterior (Figura 1. Inventario camas disponibles).
-
-    .row.justify-content-center.my-5
-      .col-lg-10
-        p Los tipos de eventos grupales más comunes son:
+        p.mb-0 Hay eventos que incluyen la participación de niños o familiares, allí se debe considerar muy bien la acomodación, garantizando la comodidad de cada familia o participante; por esto se requiere organización y responsabilidad, manteniendo la información actualizada en el gráfico anterior (Figura 1. Inventario camas disponibles).
+    p Los hoteles consideran como grupos a un número de huéspedes que reserven más de 10 habitaciones y que tengan características comunes, como fechas de ingreso y salida, servicios complementarios o adicionales, entre otros. Un organizador de eventos debe estar preparado para solucionar o administrar grupos grandes, así mismo debe saber cómo seleccionar una buena oferta dependiendo de sus necesidades y el objetivo del evento.
+    p.mb-5 Los tipos de eventos grupales más comunes son:
 
     .row.justify-content-center.texto-blanco.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -406,9 +397,7 @@
             h4.text-center.mb-3 Sociales
             p.text-center.mb-0 El objetivo de este grupo es desarrollar actividades sociales, deportivas o culturales, como celebración de matrimonios, encuentros o campeonatos deportivos, reuniones familiares, artísticas, entre otros.
 
-    .row.justify-content-center.my-5
-      .col-lg-10
-        p A continuación, se presenta un ejemplo de formato para el levantamiento de necesidades de alojamiento, con los requerimientos de acomodación para que el organizador pueda contratar la mejor opción.
+    p.mb-5 A continuación, se presenta un ejemplo de formato para el levantamiento de necesidades de alojamiento, con los requerimientos de acomodación para que el organizador pueda contratar la mejor opción.
 
     .row.justify-content-center.my-3
       .col-lg-6
@@ -422,11 +411,7 @@
           img(src="@/assets/curso/temas/tema1/img32.svg")
           figcaption.mt-3 Elaboración experto temático
 
-    separador
-
-    #t_1_3
-    .titulo-segundo.color-acento-contenido
-      h2 1.3  Servicios complementarios
+    h3.my-5 Servicios complementarios
 
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-up")
@@ -435,8 +420,8 @@
             .col-8.col-lg-2.mb-3
               figure
                 img(src='@/assets/curso/temas/tema1/img33.svg', alt='').img33-tm1        
-            .col-lg-10
-              p Como se ha visto anteriormente, los establecimientos de alojamiento pueden ofrecer servicios complementarios incluidos en la tarifa o con costos adicionales, en beneficio de las personas que los visitan.
+            .col-lg-10.j
+              p.mb-0 Como se ha visto anteriormente, los establecimientos de alojamiento pueden ofrecer servicios complementarios incluidos en la tarifa o con costos adicionales, en beneficio de las personas que los visitan.
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -473,11 +458,7 @@
           .tarjeta.color-primario.p-3(x="97%" y="55%" numero="8")
             p.text-center Tiendas al interior del hotel
 
-    separador
-
-    #t_1_4
-    .titulo-segundo.color-acento-contenido
-      h2 1.4  Procedimiento de reservas, prerregistro y #[i check-in]
+    h3.my-5 Procedimiento de reservas, prerregistro y #[i check-in]
 
     .row.justify-content-center.my-5
       .col-lg-4

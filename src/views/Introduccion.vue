@@ -9,11 +9,9 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.justify-content-center
-      .col-lg-7(data-aos="fade-right")
-        .cajon.color-acento-botones.p-4
-          p Un organizador de eventos debe crear una experiencia única y completa en cada encuentro, esto incluye proporcionar, de acuerdo con el tipo de evento, todos los servicios necesarios para el desarrollo de las actividades, desde el lugar o sede, alimentación, logística, equipos audiovisuales, recreación, transporte, así como los servicios complementarios y de alojamiento proporcionados por las empresas hoteleras y turísticas. Es por esto que en este componente formativo aprenderá la importancia y el proceso para coordinar el hospedaje, como uno de los puntos iniciales de la hospitalidad; conocerá los tipos y clases de alojamientos que existen y las técnicas para administrar la ocupación hotelera, así como temas relacionados al montaje y la prestación del servicio de alimentos y bebidas, y algunos conceptos básicos del transporte, en beneficio de los eventos a realizar. 
-          b Lo invitamos a ver el siguiente video para que amplíe su visión sobre lo que será la temática abordada durante esta experiencia de aprendizaje. Le deseamos éxitos en su desarrollo.
+    .row.justify-content-center.align-items-stretch
+      .col-lg-7(data-aos="fade-right").cajon.color-acento-botones.p-4.j
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde aprenderá a crear una experiencia única y completa para un evento, en el cual se debe tener en cuenta la importancia y el proceso para coordinar el hospedaje, como uno de los puntos iniciales de la hospitalidad, conocer los tipos y clases de alojamientos que existen y las técnicas para administrar la ocupación hotelera; además, se abordarán temas relacionados al montaje y la prestación del servicio de alimentos y bebidas, así como algunos conceptos básicos del transporte, en beneficio de los eventos a realizar.<br><br>En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo. 
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/introcuccion/img1.svg', alt='').img1-intro           

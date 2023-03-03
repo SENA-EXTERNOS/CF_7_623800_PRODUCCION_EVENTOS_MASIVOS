@@ -16,11 +16,7 @@
           p El transporte para un organizador de eventos es otro servicio importante, pues es el que permite realizar los traslados de los asistentes de un lugar a otro o de una ciudad a otra, con el fin de acceder a las diferentes actividades del evento.
           p.mt-3 El transporte en el turismo básicamente tiene dos funciones. La primera se refiere al transporte como servicio de tránsito, es decir, visto como mecanismo utilitario que permite el desplazamiento de personas desde una región de origen a una región destino. La segunda, como actividad netamente turística, cuando se utiliza para acercar a los usuarios a aquellas atracciones o actividades programadas en el evento. El organizador debe conocer qué tipo de transporte requiere y cuántas personas necesita movilizar, con el fin de analizar, evaluar y contratar la mejor opción posible.
 
-    separador
-
-    #t_2_1    
-    .titulo-segundo.color-acento-contenido
-      h2 2.1  Modalidades
+    h3.my-5 Modalidades
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -43,7 +39,7 @@
               img(src='@/assets/curso/temas/tema2/img3.svg', alt='')
 
           .col-md-6
-            p.texto-blanco.mt-4 Son los servicios de transporte público que movilizan personas que viajan de manera temporal o transitoria; pueden ser urbanos, de tránsito intermunicipal o departamental, e internacional. En esta categoría encontramos taxis, buses, trenes, vuelos de avión, entre otros. Sus horarios y tarifas están determinados por la empresa.
+            p.texto-blanco.mt-4 Son los servicios de transporte público que movilizan personas que viajan de manera temporal o transitoria; pueden ser urbanos, de tránsito intermunicipal o departamental, e internacional. En esta categoría encontramos taxis, buses, trenes, avión, entre otros. Sus horarios y tarifas están determinados por la empresa.
 
       .tarjeta--morada2.p-lg-5.p-3(titulo="Transporte turístico")
         .row
@@ -63,13 +59,15 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 Anexo 3 TRANSPORTE
+                  h5.mb-1 Anexo 3 TRANSPORTE
                   p Para complementar las modalidades de transporte, por favor descargar y estudiar el documento
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-3_modalidades_de_transporte.docx')" target="_blank")
                     span.texto-blanco Descargar
                     i.fas.fa-file-download
 
+    h3.my-5 Agenda y cronograma
+    
     .row.justify-content-center.my-5
       .col-lg-10
         .row.justify-content-center
@@ -79,17 +77,18 @@
           .col-lg-9(data-aos="fade-up-left")
             .bloque-texto-b3.color-secundario.p-4
               .bloque-texto-b__texto
-                p El organizador debe conocer la necesidad e información de los traslados de los asistentes y garantizar su movilidad, dependiendo el tipo de evento y su responsabilidad frente a este servicio. En función de la actividad a desarrollar, se puede requerir desde un auto clásico para una boda, el traslado de una persona del aeropuerto al hotel o viceversa, movilizar a cientos de personas en buses de un punto de encuentro al lugar del evento, trasladar participantes, equipos, invitados especiales y demás, en avión entre ciudades o países, entre otros.
+                p El organizador debe conocer la necesidad e información de los traslados de los asistentes y garantizar su movilidad, dependiendo del tipo de evento y su responsabilidad frente a este servicio. En función de la actividad a desarrollar, se puede requerir desde un auto clásico para una boda, el traslado de una persona del aeropuerto al hotel o viceversa, movilizar a cientos de personas en buses de un punto de encuentro al lugar del evento, trasladar participantes, equipos, invitados especiales y demás.
 
     .row.justify-content-center
       .col-lg-10
         .cajon.color-acento-botones.p-3
-          p Organizar las necesidades específicas de transporte es otra responsabilidad del organizador de eventos, para ello se hace indispensable que cree su propio formato de transporte. A continuación, se presenta un modelo de formato que servirá para dicho propósito:
+          p.mb-0 Organizar las necesidades específicas de transporte es otra responsabilidad del organizador de eventos, para ello se hace indispensable que cree su propio formato de transporte. A continuación, se presenta un modelo de formato que servirá para dicho propósito:
 
     .row.justify-content-center.my-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 4
+          br
           p(data-aos="fade-down").mb-0 #[i Formato control transporte.]
 
     .row.justify-content-center.my-5
@@ -98,11 +97,7 @@
           img(src='@/assets/curso/temas/tema2/img7.svg', alt='')
           figcaption.mt-3 Elaboración experto temático
 
-    separador
-
-    #t_2_2 
-    .titulo-segundo.color-acento-contenido
-      h2 2.2  Normativa y documentación requerida
+    h3.my-5  Normativa y documentación requerida
 
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-down")
@@ -158,8 +153,6 @@
           )
           .bloque-texto-g1__texto.p-4
             p.mb-0 El organizador siempre debe verificar y exigir que las empresas que contrate cuenten con la documentación requerida y cumplan con la normatividad exigida, de acuerdo con el país, región o ciudad en que se encuentren. La vida y seguridad de los asistentes están bajo la responsabilidad del operador.
-
-
 
 </template>
 

@@ -1713,7 +1713,7 @@ div
       .col
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
-            h3.mb-1 Título del recurso
+            h5.mb-1 Título del recurso
             p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias  
           .col-sm-auto
             a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
@@ -1730,7 +1730,7 @@ div
       .col
         .row.justify-content-between.align-items-center
           .col.mb-3.mb-sm-0
-            h3.mb-1 Título del recurso
+            h5.mb-1 Título del recurso
             p.text-small Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias 
           .col-sm-auto
             a.boton.color-acento-contenido(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")

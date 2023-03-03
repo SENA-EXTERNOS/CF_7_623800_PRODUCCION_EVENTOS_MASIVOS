@@ -31,32 +31,6 @@ export default {
         numero: '1',
         titulo: 'Alojamiento y hospedaje',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Tipos de alojamiento, hospedaje, acomodación y tarifas',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Criterios de selección',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Servicios complementarios',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Procedimiento de reservas, prerregistro y <i>check-in</i>',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -65,20 +39,6 @@ export default {
         numero: '2',
         titulo: 'Transporte de pasajeros e importancia',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Modalidades',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Normativa y documentación requerida',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -86,32 +46,6 @@ export default {
         numero: '3',
         titulo: 'Alimentos y bebidas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Tipos de servicio',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Técnicas de servicio',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Montaje de mesas para eventos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'El menú en los eventos',
-            hash: 't_3_4',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -248,83 +182,78 @@ export default {
   referencias: [
     {
       referencia:
-        'Página web | Córdoba A.C. (2017). <i>Origen e historia de los eventos en el mundo y en Colombia.</i> Prezi ',
+        'Córdoba A.C. (2017). <i>Origen e historia de los eventos en el mundo y en Colombia.</i> Prezi ',
       link:
         'https://prezi.com/rb6nljzxlrzk/origen-e-historia-de-los-eventos-en-el-mundo-y-en-colombia/',
     },
     {
       referencia:
-        'Libro digital | Cuadrado Esclapez, C. & Rodríguez Cuadrado, R. (2014). <i>El ABC en la organización de eventos</i> (2a. ed.). FC Editorial. ',
+        'Cuadrado Esclapez, C. & Rodríguez Cuadrado, R. (2014). <i>El ABC en la organización de eventos</i> (2a. ed.). FC Editorial. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/128999?page=2',
     },
     {
       referencia:
-        'Libro | Fernando, Ramos y Barrera Torre. (2006). <i>Operación de Hoteles</i> 1. Editorial Trillas.',
-      link: '',
+        'Fernando, Ramos y Barrera Torre. (2006). <i>Operación de Hoteles</i> 1. Editorial Trillas.',
     },
     {
       referencia:
-        'Página web | Instituto Mediterráneo Estudios de Protocolo. (s.f.). <i>¿Qué es un evento y cómo se puede clasificar?</i> Protocolo Imep.',
+        'Instituto Mediterráneo Estudios de Protocolo. (s.f.). <i>¿Qué es un evento y cómo se puede clasificar?</i> Protocolo Imep.',
       link:
         'https://www.protocoloimep.com/articulos/que-es-un-evento-y-clasificacion/#comments',
     },
     {
       referencia:
-        'Libro | Luis di Muro. (1999). <i>Manual Práctico de Recepción Hotelera.</i> Editorial Trillas.',
-      link: '',
+        'Luis di Muro. (1999). <i>Manual Práctico de Recepción Hotelera.</i> Editorial Trillas.',
     },
     {
       referencia:
-        'Libro | Martínez Altamirano. (2017). <i>Organización de eventos</i> (Primera edición. ed.). México: Editorial Trillas.',
-      link: '',
+        'Martínez Altamirano. (2017). <i>Organización de eventos</i> (Primera edición. ed.). México: Editorial Trillas.',
     },
     {
       referencia:
-        'Página web | Ministerio de Comercio, Industria y Turismo. (2009). <i>Norma Técnica Sectorial Colombiana NTSH 006, Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles, requisitos.</i>',
+        'Ministerio de Comercio, Industria y Turismo. (2009). <i>Norma Técnica Sectorial Colombiana NTSH 006, Clasificación de establecimientos de alojamiento y hospedaje. Categorización por estrellas de hoteles, requisitos.</i>',
       link:
         'https://www.mincit.gov.co/minturismo/calidad-y-desarrollo-sostenible/calidad-turistica/normas-tecnicas-sectoriales/nts-alojamiento-y-hospedaje-1/norma-tecnica-sectorial-colombiana-ntsh-006-i-actu ',
     },
     {
       referencia:
-        'Página web | Pérez, J. y Merino, M. (2018). <i>Definición de cóctel.</i> Definicion.de.',
+        'Pérez, J. y Merino, M. (2018). <i>Definición de cóctel.</i> Definicion.de.',
       link: 'https://definicion.de/coctel/',
     },
     {
       referencia:
-        'Página web | Pérez, J. y Gardey, A. (2014). <i>Definición de menú.</i> Definicion.de.',
+        'Pérez, J. y Gardey, A. (2014). <i>Definición de menú.</i> Definicion.de.',
       link: 'https://definicion.de/menu-2/',
     },
     {
       referencia:
-        'Página web | Protocolo & Etiqueta. (2022). <i>Qué es un brunch. Cuando se hace un brunch. Qué se come en un brunch.</i> Protocolo.org.',
+        'Protocolo & Etiqueta. (2022). <i>Qué es un brunch. Cuando se hace un brunch. Qué se come en un brunch.</i> Protocolo.org.',
       link:
         'https://www.protocolo.org/social/la-mesa/el-brunch-que-es-y-cuando-se-hace.html',
     },
     {
       referencia:
-        'Página web | Protocolo & Etiqueta. (2021). <i>¿Qué es una “vernissage”?</i> Protocolo.org.',
+        'Protocolo & Etiqueta. (2021). <i>¿Qué es una “vernissage”?</i> Protocolo.org.',
       link:
         'https://www.protocolo.org/social/etiqueta-social/que-es-una-vernissage.html ',
     },
     {
       referencia:
-        'Libro | Rodríguez Cuadrado y Cuadrado Esclapez. (2014). <i>El ABC En La Organización de Eventos.</i> (Segunda edición). FC Editorial.',
-      link: '',
+        'Rodríguez Cuadrado y Cuadrado Esclapez. (2014). <i>El ABC En La Organización de Eventos.</i> (Segunda edición). FC Editorial.',
     },
     {
-      referencia:
-        'Página web | RUNT (s.f.). <i>Sobre el RUNT, ¿Qué es el RUNT?</i>',
+      referencia: 'RUNT (s.f.). <i>Sobre el RUNT, ¿Qué es el RUNT?</i>',
       link: 'https://www.runt.com.co/sobre-runt/que-es-runt',
     },
     {
       referencia:
-        'Página web | Significados. (s.f.) <i>Significado de Buffet</i>. Significados.com.',
+        'Significados. (s.f.) <i>Significado de Buffet</i>. Significados.com.',
       link: 'https://www.significados.com/buffet/ ',
     },
     {
       referencia:
-        'PDF | Sumoza Matos J. (2019). <i>Turismo comunitario, turismo digital, turismo informacional, turismo inteligente.</i> Revista Turydes: Turismo y Desarrollo, n. 26. En línea:',
+        'Sumoza Matos J. (2019). <i>Turismo comunitario, turismo digital, turismo informacional, turismo inteligente.</i> Revista Turydes: Turismo y Desarrollo, n. 26. En línea:',
       link: 'https://www.eumed.net/rev/turydes/26/turismo-tipos.pdf',
     },
   ],

@@ -10,7 +10,7 @@
     .row.justify-content-center.my-5
       .col-lg-6(data-aos="fade-right")
         .cajon.color-primario.p-3
-          p Otro servicio fundamental que el organizador de eventos debe conocer es el de alimentos y bebidas. Para los participantes este es un elemento muy importante y sobre el cual recae un alto nivel de exigencia, además de ser requerido en muchos de los formatos de eventos, desde desayunos de trabajo para un grupo de ejecutivos, una cena para un matrimonio de 200 invitados, o un banquete para la fiesta de fin de año de una empresa con 2.000 colaboradores, refrigerios para una conferencia, entre otros.
+          p.mb-0 Otro servicio fundamental que el organizador de eventos debe conocer es el de alimentos y bebidas. Para los participantes este es un elemento muy importante y demanda un alto nivel de exigencia, además de ser requerido en muchos de los formatos de eventos como desayunos de trabajo, cena para una boda de 200 invitados, un banquete para la fiesta de fin de año de una empresa con 2.000 colaboradores, refrigerios para una conferencia, entre otros.
 
       .col-lg-6.my-5(data-aos="fade-left")
         figure
@@ -48,7 +48,7 @@
 
         .row.justify-content-center(titulo="")
           .col-md-6.mb-4.mb-md-0
-            p La puntualidad en los servicios de alimentos es impocrtante porque requiere que las preparaciones estén en el punto exacto de temperatura, por esto debe coordinarse muy bien con el proveedor o equipo de alimentos el tiempo de preparación y horario de servicio.
+            p La puntualidad en los servicios de alimentos es importante porque requiere que las preparaciones estén en el punto exacto de temperatura, por esto debe coordinarse muy bien con el proveedor o equipo de alimentos el tiempo de preparación y horario de servicio.
 
           .col-md-4
             figure
@@ -62,11 +62,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img6.svg', alt='')
 
-    separador
-
-    #t_3_1    
-    .titulo-segundo.color-acento-contenido
-      h2 3.1  Tipos de servicio
+    h3.my-5 Tipos de servicio
 
     .row.justify-content-center.my-5
       .col-5.col-lg-1.my-3
@@ -97,7 +93,7 @@
                   img(src="@/assets/curso/temas/tema3/img9.svg", alt="alt").img-8-a-15-tm3
               .col-lg-8.mt-3(data-aos="fade-up-left")
                 h5 #[i Coffee break]
-                p Se realiza durante el receso de eventos prolongados, como una especie de descanso de los participantes, en donde tienen acceso a café, té, jugos naturales, bocadillos salados y dulces. Se puede ofrecer temporal o permanentemente, dependiendo de la necesidad del cliente.
+                p Se realiza durante el receso de eventos prolongados, como una especie de descanso de los participantes, en donde tienen acceso a café, té, jugos naturales, bocadillos salados y dulces. Se puede ofrecer temporal o permanentemente, dependiendo de la necesidad y presupuesto del cliente.
 
           .tarjeta--3.p-lg-0.p-4
             .row
@@ -151,19 +147,14 @@
                   img(src="@/assets/curso/temas/tema3/img15.svg", alt="alt").img-8-a-15-tm3
               .col-lg-8.mt-3(data-aos="fade-up-left")
                 h5 Cena o banquete
-                p El más común para eventos prolongados en donde se ofrecen permanentemente pasabocas y bebidas, para después ofrecer una cena completa, que incluye entrada, plato principal, postre, servicio de café o brindis de apertura o del evento.
-
+                p El más común para eventos prolongados en donde se ofrecen permanentemente pasabocas y bebidas, para después ofrecer una cena completa, que incluye entrada, plato principal, postre, servicio de café o brindis de apertura del evento.
     .row
       .col-lg-4
         figure
           img(src="@/assets/curso/temas/tema3/img16.svg", alt="alt").img16-tm3   
 
 
-    separador
-
-    #t_3_2 
-    .titulo-segundo.color-acento-contenido
-      h2 3.2  Técnicas de servicio
+    h3.my-5 Técnicas de servicio
 
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-left")
@@ -224,11 +215,7 @@
           .col-lg-6.mt-5
             p Usadas normalmente en espacios abiertos, en donde se organiza un espacio de preparación y zona de servicio, los participantes pueden ir comiendo e interactuando entre los alimentos y las bebidas. En algunos eventos se permite la interacción de los participantes en la preparación de los alimentos. 
 
-    separador
-
-    #t_3_3
-    .titulo-segundo.color-acento-contenido
-      h2 3.3  Montaje de mesas para eventos
+    h3.my-5 Montaje de mesas para eventos
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -237,7 +224,7 @@
             figure
               img(src='@/assets/curso/temas/tema3/img23.svg', alt='')
           .col-lg-9
-            p Vestir una mesa, como le llaman en Colombia, o realizar el montaje de mesas, como se le conoce técnicamente, es algo más que poner un mantel y menaje, ya que se busca brindar al participante una sensación agradable y una experiencia que incluye elegancia y buenas costumbres. 
+            p Vestir una mesa, como le llaman en Colombia, o realizar el montaje de mesas, como se le conoce técnicamente, es algo más que poner un mantel y menaje, ya que se busca brindar al participante una sensación agradable y una experiencia que incluye elegancia y buenas costumbres. Esta actividad tiene algunas características especiales y requerimientos para considerar, presentados en el siguiente video.
 
     .row.mt-5(data-aos="fade-zoom")
       figure
@@ -247,7 +234,9 @@
     .row.justify-content-center.my-5
       .col-lg-10
         .cajon.color-primario.p-3
-          p En el video anterior se mostraron los elementos básicos del montaje, sin embargo, existen otros complementos, como saleros, pimenteros y elementos decorativos que pueden hacer parte de un montaje. La ubicación de mesas en un salón o recinto varía de acuerdo con el tipo de evento y las actividades a realizar en este.      
+          p En el video anterior se mostraron los elementos básicos del montaje, sin embargo, existen otros complementos, como saleros, pimenteros y elementos decorativos que pueden hacer parte de un montaje. 
+          p.mb-0 La ubicación de mesas en un salón o recinto también es un aspecto muy importante y varía de acuerdo con el tipo de evento y las actividades a realizar en este.
+     
 
     .row.mt-5
       p Estos son los montajes de salones y mesas más usados en eventos:
@@ -261,7 +250,7 @@
                 img(src='@/assets/curso/temas/tema3/img24.svg', alt='')
 
             .col-md-6
-              p.texto-blanco.mt-4 Mesas ubicadas en forma de ‘u’ o de herradura, se usa con mesas rectangulares o cuadradas cuando el evento requiere que muchas personas presten atención a algo particular, e interactúen entre ellas; sin embargo, hay que analizar el número de personas, ya que no funciona para muchos asistentes. 
+              p.texto-blanco.mt-4 Mesas ubicadas en forma de ‘U’ o de herradura, se usa con mesas rectangulares o cuadradas cuando el evento requiere que muchas personas presten atención a algo particular, e interactúen entre ellas; sin embargo, hay que analizar el número de personas, ya que no funciona para muchos asistentes. 
 
         .tarjeta--morada2.p-lg-5.p-3(titulo="Imperial")
           .row
@@ -328,13 +317,9 @@
     .row.justify-content-center.my-5
       .col-lg-10(data-aos="flip-left")
         .cajon.color-acento-botones.p-3
-          p Por protocolo, a las mujeres se les sirve antes que a los caballeros y el orden se realiza de la siguiente manera: se ubica el anfitrión y se le sirve a la primera dama que esté a su derecha, luego se le sirve a la que está a su izquierda para continuar sirviendo al resto de los comensales de derecha a izquierda. Los platos se deben recoger por la derecha de la persona y el postre se sirve solo hasta haber retirado todo lo demás que esté en la mesa.
+          p.mb-0 Por protocolo, a las mujeres se les sirve antes que a los caballeros y el orden se realiza de la siguiente manera: se ubica el anfitrión y se le sirve a la primera dama que esté a su derecha, luego se le sirve a la que está a su izquierda para continuar sirviendo al resto de los comensales de derecha a izquierda. Los platos se deben recoger por la derecha de la persona y el postre se sirve solo hasta haber retirado todo lo demás que esté en la mesa.
 
-    separador
-
-    #t_3_4
-    .titulo-segundo.color-acento-contenido
-      h2 3.4  El menú en los eventos
+    h3.my-5 El menú en los eventos
 
     .row.my-5
       .col-lg-11(data-aos="flip-down")
@@ -373,7 +358,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img34.svg', alt='').img32-a-35-tm3
               .col-9.col-lg-11(data-aos="fade-up-left")
-                p Los objetivos del menú, el organizador según el perfil de los asistentes, y en conjunto con el chef, debe verificar el plan nutricional y ajustarse al presupuesto asignado.
+                p Los objetivos del menú, el organizador según el perfil de los asistentes y en conjunto con el chef; debe verificar el plan nutricional y ajustarse al presupuesto asignado.
             .hr--line
             .row
               .col-3.col-lg-1.mt-2(data-aos="fade-up-right")
@@ -388,7 +373,7 @@
               img(src='@/assets/curso/temas/tema3/img36.svg', alt='').img36-tm3
 
             .cajon.color-primario.p-3(data-aos="fade-up-left")
-              p Todo el menú debe realizarse y considerarse con mucha responsabilidad por parte del organizador y su equipo de trabajo.
+              p.mb-0 Todo el menú debe realizarse y considerarse con mucha responsabilidad por parte del organizador y su equipo de trabajo.
 
     .row.my-5
       .tarjeta--morada.p-4(data-aos="flip-up")
@@ -397,7 +382,7 @@
             figure.mb-3.mt-2
               img(src='@/assets/curso/temas/tema3/img37.svg', alt='')            
           .col-lg-9
-            p Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo, y que encuentra en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
+            p Para un estudio completo del tema, recuerde explorar todos los recursos que se encuentran disponibles en este componente formativo y que puede localizar en el menú principal, tales como material complementario, actividad didáctica, glosario, entre otros. 
 
 
 </template>
