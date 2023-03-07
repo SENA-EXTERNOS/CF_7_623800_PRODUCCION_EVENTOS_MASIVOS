@@ -111,7 +111,7 @@
                   img(src="@/assets/curso/temas/tema3/img11.svg", alt="alt").img-8-a-15-tm3
               .col-lg-8.mt-3(data-aos="fade-up-left")
                 h5 #[i Brunch]
-                p Se realiza a media mañana, lo que permite que sea una opción entre el desayuno y el almuerzo, ofreciendo alternativas de alimentos y bebidas frías o calientes.
+                p Se realiza a media mañana, lo que permite que sea una opción entre el desayuno y el almuerzo, ofreciendo alternativas de alimentos y bebidas frías y/o calientes.
 
           .tarjeta--3.p-lg-0.p-4
             .row
@@ -358,7 +358,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema3/img34.svg', alt='').img32-a-35-tm3
               .col-9.col-lg-11(data-aos="fade-up-left")
-                p Los objetivos del menú, el organizador según el perfil de los asistentes y en conjunto con el chef; debe verificar el plan nutricional y ajustarse al presupuesto asignado.
+                p Los objetivos del menú, el organizador según el perfil de los asistentes y en conjunto con el <i>chef</i>; debe verificar el plan nutricional y ajustarse al presupuesto asignado.
             .hr--line
             .row
               .col-3.col-lg-1.mt-2(data-aos="fade-up-right")

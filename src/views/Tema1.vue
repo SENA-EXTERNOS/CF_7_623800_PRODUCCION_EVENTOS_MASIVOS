@@ -353,7 +353,6 @@
 
     .row.justify-content-center.my-5     
       .col-lg-6
-        p Los hoteles consideran como grupos a un número de huéspedes que reserven más de 10 habitaciones y que tengan características comunes, como fechas de ingreso y salida, servicios complementarios o adicionales, entre otros. Un organizador de eventos debe estar preparado para solucionar o administrar grupos grandes, así mismo debe saber cómo seleccionar una buena oferta dependiendo de sus necesidades y el objetivo del evento.
         .row
           .bloque-texto-b1.color-secundario.p-4
             .bloque-texto-b__texto
