@@ -62,7 +62,7 @@
                   h5.mb-1 Anexo 3 TRANSPORTE
                   p Para complementar las modalidades de transporte, por favor descargar y estudiar el documento
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-3_modalidades_de_transporte.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-3_modalidades_de_transporte.pdf')" target="_blank")
                     span.texto-blanco Descargar
                     i.fas.fa-file-download
 

@@ -75,7 +75,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img7.svg', alt='')
           .col-lg-9
-            p Los alojamientos pueden ser tan diversos como conceptos se puedan crear de este servicio; siempre se contará con la variable de la creatividad del empresario para atraer a un segmento especializado de clientes. No obstante, podremos encontrar algunas consideraciones generales que tienen que ver con el tamaño, modalidad o categoría.
+            p Los alojamientos pueden ser tan diversos como los conceptos se puedan crear de este servicio; siempre se contará con la variable de la creatividad del empresario para atraer a un segmento especializado de clientes. No obstante, podremos encontrar algunas consideraciones generales que tienen que ver con el tamaño, modalidad o categoría.
 
     .row.justify-content-center.my-5
       .col-lg-10
@@ -156,7 +156,7 @@
                   h5.mb-1 Anexo 1 OTROS TIPOS DE ALOJAMIENTO
                   p Para complementar las clasificaciones anteriores, descargue y lea el siguiente documento 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-1_otros_tipos_de_alojamientos.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-1_otros_tipos_de_alojamientos.pdf')" target="_blank")
                     span.texto-blanco Descargar
                     i.fas.fa-file-download
 
@@ -236,7 +236,7 @@
                   h5.mb-1 Anexo 2 CANALES DE VENTA
                   p Para ampliar este tema descargue el anexo
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-2_canales_de_venta_de_hoteles.docx')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo-2_canales_de_venta_de_hoteles.pdf')" target="_blank")
                     span.texto-blanco Descargar
                     i.fas.fa-file-download
         .row.justify-content-center
